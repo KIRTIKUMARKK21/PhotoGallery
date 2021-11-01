@@ -18,3 +18,4 @@ const ImageGrid = () => {
   return docs.length>0?<ImageGallery items={images} thumbnailPosition="right" />:null;
 };
 export default ImageGrid;
+
